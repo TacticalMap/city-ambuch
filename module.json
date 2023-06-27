@@ -1,0 +1,35 @@
+{
+  "name": "tacticalmap-p74",
+  "id": "tacticalmap-p74",
+  "title": "TM City ambush",
+  "description": "An ambush in a city with space to bypass the ambush. The set includes roofs. As well as versions of the map without a city, in the forest.",
+  "author": "Tactical Master",
+  "authors": [],
+  "url": "https://www.patreon.com/tacticalmap",
+  "flags": {},
+  "version": "1.1",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "11",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "city-ambuch",
+      "label": "TM City ambush",
+      "path": "packs/city-ambuch.db",
+      "type": "Scene",
+	  "entity": "Scene",
+      "module": "city-ambuch",
+      "private": false
+    }
+  ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "https://github.com/TacticalMap/Maps/blob/main/module.json",
+  "download": "https://github.com/TacticalMap/Maps/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false
+}
